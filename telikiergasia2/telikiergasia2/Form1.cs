@@ -22,7 +22,9 @@ namespace telikiergasia2
         public Form1()
         {
             InitializeComponent();
-            
+            this.MaximumSize = new System.Drawing.Size(1116, 825);
+            this.MinimumSize = new System.Drawing.Size(1116, 825);
+
             connection = new SQLiteConnection(connectionString);
             textBox1.PlaceholderText = "Τι σκέφτεσται σήμερα?";
             EnsureDatabase();

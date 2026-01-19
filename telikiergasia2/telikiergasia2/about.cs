@@ -13,6 +13,8 @@ namespace telikiergasia2
         public about()
         {
             InitializeComponent();
+            this.MaximumSize = new System.Drawing.Size(916, 530);
+            this.MinimumSize = new System.Drawing.Size(916, 530);
         }
 
         private void label1_Click(object sender, EventArgs e)

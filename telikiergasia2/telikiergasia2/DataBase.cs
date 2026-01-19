@@ -17,8 +17,8 @@ namespace telikiergasia2
             InitializeComponent();
 
             this.Text = "Ιστορικό Συνομιλιών";
-            this.Width = 700;
-            this.Height = 500;
+            this.MaximumSize = new System.Drawing.Size(800,500);
+            this.MinimumSize = new System.Drawing.Size(800, 500);
 
             // Κουμπί Back πάνω
             buttonBack = new Button();

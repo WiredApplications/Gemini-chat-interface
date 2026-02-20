@@ -9,7 +9,7 @@ namespace telikiergasia2
 {
     public partial class Form1 : Form
     {
-        private const string ApiKey = "AIzaSyDTQuoxfp3w-jT9E_91_c6zCqRVZL_j8o8";
+        private const string ApiKey = "";   //AIzaSyCESYHqfAx9qWZcr1gW3SrpWUOf5zRop7k
         private const string ModelId = "models/gemini-2.5-flash";
 
         private readonly string connectionString = "Data Source=Database.db;Version=3;";
